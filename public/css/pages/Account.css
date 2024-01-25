@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.user_information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+
+.personal__title {
+    font-size: 1.6rem;
+}
+
+.btn-account {
+    border: #1a1b1c solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #3a424a;
+    margin-top: 4px;
+    padding: 6% 8%;
+}
+
+.btn-admin {
+    border: #1a1b1c solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #3a424a;
+    padding: 20px 25px;
+}
+
+.btn-logout {
+    margin-top: 5%;
+    border: #1a1b1c solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #3a424a;
+    padding: 5% 7.5%;
+}
+
+.personal__information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5vh
+}
+
+.container__admin-panel {
+    display: flex;;
+    justify-content: center;
+    margin-top: 2vh;
+    width: 100%;
+}
+
+.user_password {
+    text-align: center;
+}

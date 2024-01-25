@@ -1,0 +1,138 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container form {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.search-container input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #202020;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form{
+    margin: auto;
+    width: 100%;
+}
+
+.search_bar_vf, .search_bar_vostfr{
+   background-color: #0a0a0a;
+   color: white;
+   border: solid #1b1b1b 2px;
+   border-radius: 5px ;
+   width: 80%;
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+   margin-bottom: 15px;
+}
+.button_submit_searchvf, .button_submit_searchvostfr{
+    width: 18%;
+    color: #858282;
+    border-radius: 100px;
+}
+.anime_container_filter{
+    margin: auto;
+    width: 100%;
+    border-radius: 5px ;
+    display: flex;
+    justify-content: end;
+}
+.anime_filter{
+    background-color: #0a0a0a;
+    color: #202020;
+    border: solid #1b1b1b 2px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 10vw;
+    height: 5vh;
+}
+
+.anime-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    justify-content: center;
+}
+.anime-card {
+    width: 16%;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.anime-card__link {
+    text-decoration: none;
+    color: #333333;
+    display: block;
+}
+
+.anime-card__image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.anime-card__title {
+    margin: 0;
+    color: white;
+}
+.anime-card__span{
+   color: #727272;
+   
+}
+
+
+#categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 60%;
+  }
+
+  .label-categories {
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    width: 30%;
+    white-space: nowrap;
+  }
+
+  .input_categories {
+    margin-right: 5px;
+  }
+
+  @media screen and (max-width: 830px) {
+    #categories{
+        width: 100%;
+    }
+    .label-categories {
+        width: 50%;
+    }
+    .anime-card {
+        width: 25%; 
+        margin: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 850px) {
+    .label-categories {
+        width: 30%;
+    }
+}

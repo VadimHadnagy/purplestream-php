@@ -1,0 +1,51 @@
+.form__container {
+    width: 100%;
+    background-color: var(--background-color);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form label {
+    margin-top: 10px;
+    color: var(--text-color);
+}
+
+.header__title {
+    text-align: center;
+}
+
+.form input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid var(--violet-color);
+    background-color: transparent;
+    color: var(--text-color);
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Styles for focused input fields */
+.form input:focus {
+    border-color: var(--violet-color);
+}
+
+/* Styles for invalid input fields (optional) */
+.form input:invalid {
+    border-color: #c85050;
+}
+
+/* Styles for placeholder text */
+.form input::placeholder {
+    color: var(--text-color);
+    opacity: 0.7;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+}

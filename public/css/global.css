@@ -1,0 +1,104 @@
+:root {
+    --violet-color: #6A1A9F;
+    --text-color: white;
+    --background-color: #1a1b1c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+    font-family: "arial", sans-serif;
+
+    min-height: 100vh;
+}
+
+/* GLOBAL */
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    width: 50%;
+    height: auto;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main--f-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main--background {
+    background-image: url("/img/backgroundHomePage.png");
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.header-container {
+    background: linear-gradient(to bottom, transparent 0%, var(--background-color) 100%);
+}
+
+.button {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    color: var(--text-color);
+    border: 2px solid var(--violet-color);
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+.error-message {
+    margin: 0;
+    color: rgb(255, 65, 65);
+}
+
+.success-message {
+    margin: 0;
+    color: rgb(65, 255, 65);
+}
+
+.input-error:invalid {
+    outline: 2px solid rgb(255, 65, 65);
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 0;
+}
+
+a span {
+    text-decoration: underline;
+}
+
+

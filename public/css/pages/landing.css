@@ -1,0 +1,17 @@
+.main--f-end .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button:hover {
+    background-color: var(--violet-color);
+}
+
+.button--solid {
+    background-color: var(--violet-color);
+}
+
+.button-container {
+    background-color: var(--background-color);
+}

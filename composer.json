@@ -1,0 +1,9 @@
+{
+    "name": "group2/purplestream",
+    "autoload": {
+        "psr-4": {
+            "PurpleStream\\": "src/"
+        }
+    },
+    "require": {}
+}

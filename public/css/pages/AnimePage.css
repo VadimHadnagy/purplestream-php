@@ -1,0 +1,132 @@
+/* Import des polices Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,100&family=Roboto:wght@100&display=swap');
+
+/* Styles généraux pour le corps du document */
+.body-anime {
+    margin: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Styles pour les détails de l'anime */
+.anime-details {
+    text-align: start;
+}
+
+/* Styles pour le titre de l'anime (#anime_title) */
+#anime_title {
+    margin: 0;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+/* Styles pour les boutons (+ Favoris, + Watchlist) */
+#btn-favoris,
+#btn-watchlist {
+    color: #fff;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Styles spécifiques pour le bouton Watchlist */
+#btn-watchlist {
+    background-color: rgba(52, 92, 210, 0.4);
+}
+
+/* Styles spécifiques pour le bouton Favoris */
+#btn-favoris {
+    background-color: rgba(160, 182, 18, 0.4);
+}
+
+/* Styles pour le statut de l'anime (.anime-status) */
+.anime-status {
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Styles pour l'image d'anime (#img-details) */
+#img-details {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px 0 0 0;
+}
+
+/* Styles pour la langue de l'anime (.anime-language) */
+.anime-language {
+    font-size: 14px;
+}
+
+/* Styles pour la section "Saisons" (#saisons) */
+#saisons p {
+    margin-bottom: 15px;
+}
+
+/* Styles pour le conteneur de saisons (#container-season) */
+#container-season {
+    display: flex;
+}
+
+/* Styles pour les liens (a) */
+a {
+    margin: 0 10px 0 5px;
+}
+
+/* Styles pour les titres h1 */
+h1 {
+    margin: 25px 0 0 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+/* Styles pour les titres h3 */
+h3 {
+    margin: 15px 0 0 0;
+}
+
+/* Styles pour les titres h4 */
+h4 {
+    font-size: 14px;
+}
+
+/* Styles pour le texte dans la balise span de h4 */
+h4 span {
+    font-size: 12px;
+    color: gray;
+}
+
+/* Styles pour les images de saison (.season-img) */
+.season-img {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    filter: blur(1px);
+    object-fit: cover;
+}
+
+/* Styles pour le conteneur de synopsis (.synopsis-container) */
+.synopsis-container {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+/* Styles pour le texte de synopsis (.synopsis-text) */
+.synopsis-text {
+    text-align: start;
+}
+
+/* Styles pour le nom de la saison (.season-name) */
+.season-name {
+    text-align: center;
+    margin: 5px 0 0 0;
+}
